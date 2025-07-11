@@ -1,9 +1,11 @@
-# Vending-Machine
 # Verilog Based Vending Machine FSM Project
+<br>
 <br>
 Author - Divyansh Tripathi
 <br>
+<br>
 Implemented a Verilog Based Vending Machine with the following features:-
+<br>
 <br>
 1> 2 product choices - Chocalate and Drinks.
 <br>
@@ -21,7 +23,9 @@ Implemented a Verilog Based Vending Machine with the following features:-
 <br>
 8> Change signal to return the change in case the user has overpaid.
 <br>
+<br>
 To view the simulation waveform follow these steps:-
+<br>
 <br>
 - save the vending_machine_waveform.gtkw file
 <br>
@@ -33,7 +37,9 @@ To view the simulation waveform follow these steps:-
 <br>
 - select the ports to view the waveforms.
 <br>
+<br>
 Files present in the repository:-
+<br>
 <br>
 vending_machine.v - dut module
 <br>
