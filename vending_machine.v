@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module vending_machine(clk, coins, rst,  choice, start, done, product, change);
 input clk, start, choice, rst;
 input [1:0] coins;
