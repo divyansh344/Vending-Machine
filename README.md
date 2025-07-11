@@ -41,11 +41,16 @@ To view the simulation waveform follow these steps:-
 Files present in the repository:-
 <br>
 <br>
-vending_machine.v - dut module
+> vending_machine.v - dut module
 <br>
-testbench.v - testbench module to generate the signals for the inputs.
+> testbench.v - testbench module to generate the signals for the inputs.
 <br>
-vending_machine_waveforms.gtkw - gtkwave file to see the waveforms.
+> vending_machine_waveforms.gtkw - gtkwave file to see the waveforms.
+<br>
+> Simulation_images - screenshots of simulation images.
+<br>
+<br>
+Thanks for checking out the project! Any feedback or Contributions are welcome.
 
 
 
