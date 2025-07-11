@@ -1,59 +1,42 @@
 # Verilog Based Vending Machine FSM Project
-<br>
-<br>
-Author - Divyansh Tripathi
-<br>
-<br>
-Implemented a Verilog Based Vending Machine with the following features:-
-<br>
-<br>
-1> 2 product choices - Chocalate and Drinks.
-<br>
-2> Price of Chocalate = $2 , Price of Drinks = $5.
-<br> 
-3> 3 types of coins accepted - 1, 2 and 5.
-<br>
-4> Start signal to mark the start of operation. 
-<br>
-5> Clock and Reset signal for synchronous operation.
-<br>
-6> Done signal to mark the product is received by the user.
-<br>
-7> Product signal for the type of product received.
-<br>
-8> Change signal to return the change in case the user has overpaid.
-<br>
-<br>
-To view the simulation waveform follow these steps:-
-<br>
-<br>
-- save the vending_machine_waveform.gtkw file
-<br>
-- Open gtkwave.
-<br>
-- click on File > Open New Tab.
-<br>
-- open the saved file 
-<br>
-- select the ports to view the waveforms.
-<br>
-<br>
-Files present in the repository:-
-<br>
-<br>
-> vending_machine.v - dut module
-<br>
-> testbench.v - testbench module to generate the signals for the inputs.
-<br>
-> vending_machine_waveforms.gtkw - gtkwave file to see the waveforms.
-<br>
-> Simulation_images - screenshots of simulation images.
-<br>
-<br>
-Thanks for checking out the project! Any feedback or Contributions are welcome.
 
+## Author
+**Divyansh Tripathi**
 
+## 🛒 Project Overview
 
+This project implements a Finite State Machine (FSM) based Vending Machine using Verilog HDL.
 
+## ✨ Features
 
+- **2 Product Choices**: Chocolate and Drinks
+- **Pricing**:
+  - Chocolate – $2
+  - Drinks – $5
+- **Accepted Coins**: 1, 2, and 5 units
+- **Control Signals**:
+  - `start` – Initiates the operation
+  - `clk`, `rst` – Clock and reset signals for synchronous FSM control
+  - `done` – Indicates product has been dispensed
+  - `product` – Encodes the type of product selected
+  - `change` – Returns excess amount if overpaid
 
+## 📊 How to View Simulation Waveforms
+
+1. Save the `vending_machine_waveform.gtkw` file.
+2. Open **GTKWave**.
+3. Click on **File > Open New Tab**.
+4. Open the saved `.gtkw` file.
+5. Select ports/signals to observe simulation results.
+
+## 📁 Files in This Repository
+
+- `vending_machine.v` – FSM design module (DUT)
+- `testbench.v` – Verilog testbench to simulate user interaction
+- `vending_machine_waveforms.gtkw` – GTKWave file for waveform viewing
+- `Simulation_images/` – Folder containing screenshots of simulation output
+
+---
+
+**Thanks for checking out the project!**  
+Feedback and contributions are always welcome.
