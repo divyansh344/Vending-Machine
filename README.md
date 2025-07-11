@@ -19,7 +19,7 @@ Implemented a Verilog Based Vending Machine with the following features:-
 <br>
 6> Done signal to mark the product is received by the user.
 <br>
-7> Product signal which tells the product received.
+7> Product signal for the type of product received.
 <br>
 8> Change signal to return the change in case the user has overpaid.
 <br>
